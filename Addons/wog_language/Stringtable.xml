@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Core">
+	<Package name="UI">
+		<Container name="Gear">
+			<Key ID="STR_WOG_EQUIPMENT">
+				<Original>Equipment</Original>
+				<English>Equipment</English>
+				<Czech>Vybavení</Czech>
+				<French>Matériel</French>
+				<German>Ausrüstung</German>
+				<Italian>Equipaggiamento</Italian>
+				<Polish>Wyposażenie</Polish>
+				<Portuguese>Equipamento</Portuguese>
+				<Russian>Снаряжение</Russian>
+				<Spanish>Equipo</Spanish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Data">
+		<Container name="Factions">
+			<Key ID="STR_WOG_b_USMC">
+				<Original>USMC</Original>
+				<English>USMC</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>КМП США</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_USMC_80s90s">
+				<Original>USMC (80s, 90s)</Original>
+				<English>USMC (80s, 90s)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>КМП США (80х, 90х)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_USArmy">
+				<Original>US Army</Original>
+				<English>US Army</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Армия США</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_USArmy_80s90s">
+				<Original>US Army (80s, 90s)</Original>
+				<English>US Army (80s, 90s)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Армия США (80х, 90х)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_USAF">
+				<Original>USAF</Original>
+				<English>USAF</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>ВВС США</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_BAF">
+				<Original>BAF</Original>
+				<English>BAF</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Великобритания</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_Greece">
+				<Original>Greece</Original>
+				<English>Greece</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Греция</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_b_CDF">
+				<Original>CDF</Original>
+				<English>CDF</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>СБ-ВМА</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Russia_MSV">
+				<Original>Russia (МСВ)</Original>
+				<English>Russia (МСВ)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Россия (МСВ)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Russia_VMF">
+				<Original>Russia (ВМФ)</Original>
+				<English>Russia (ВМФ)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Россия (ВМФ)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Russia_VDV">
+				<Original>Russia (ВДВ)</Original>
+				<English>Russia (ВДВ)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Россия (ВДВ)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Russia_MVD">
+				<Original>Russia (МВД)</Original>
+				<English>Russia (МВД)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Россия (МВД)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Russia_VVS">
+				<Original>Russia (ВВС)</Original>
+				<English>Russia (ВВС)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Россия (ВВС)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_CSTO">
+				<Original>CSTO</Original>
+				<English>CSTO</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>ОДКБ</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_USSR_MSV">
+				<Original>USSR (МСВ)</Original>
+				<English>USSR (МСВ)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>СССР (МСВ)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_USSR_MVD">
+				<Original>USSR (МВД)</Original>
+				<English>USSR (МВД)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>СССР (МВД)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_USSR_VVS">
+				<Original>USSR (ВВС)</Original>
+				<English>USSR (ВВС)</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>СССР (ВВС)</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_Iran">
+				<Original>Iran</Original>
+				<English>Iran</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Иран</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_CSLA">
+				<Original>Czechoslovakia</Original>
+				<English>Czechoslovakia</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Чехословакия</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_o_CSLA">
+				<Original>ChDKZ</Original>
+				<English>ChDKZ</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Партизаны</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_i_PMC">
+				<Original>PMC</Original>
+				<English>PMC</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>ЧВК</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_i_ROF">
+				<Original>Republic of Altis</Original>
+				<English>Republic of Altis</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Республика Алтис</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_i_FIA">
+				<Original>FIA</Original>
+				<English>FIA</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Бандиты</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_i_FIA">
+				<Original>Guerrillas</Original>
+				<English>Guerrillas</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>НВФ</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_i_Taliban">
+				<Original>Taliban</Original>
+				<English>Taliban</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Талибан</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_c_Altis">
+				<Original>Altis</Original>
+				<English>Altis</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Алтис</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_c_Chernarus">
+				<Original>Chernarus</Original>
+				<English>Chernarus</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Чернорусь</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_c_Arabs">
+				<Original>Arabs</Original>
+				<English>Arabs</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Арабы</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_c_Journalist">
+				<Original>Journalist</Original>
+				<English>Journalist</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Журналисты</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Modules">
+		<Container name="AI">
+			<Key ID="STR_WOG_AI_Logic">
+				<Original>WOG Disabling AI</Original>
+				<English>WOG Disabling AI</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG Отключение ИИ</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_AI_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Удаление ботов через 10 минут после старта</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+		<Container name="Chat">
+			<Key ID="STR_WOG_Chat_Logic">
+				<Original>WOG Disabling chat</Original>
+				<English>WOG Disabling chat</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG Отключение чата</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_Chat_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Полное отключение чата</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+		<Container name="Map">
+			<Key ID="STR_WOG_Map_Logic">
+				<Original>WOG Map</Original>
+				<English>WOG Map</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG Карта</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_Map_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Наличие карты у игрока</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+		<Container name="isCrew">
+			<Key ID="STR_WOG_isCrew_Logic">
+				<Original>WOG Crew</Original>
+				<English>WOG Crew</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG Экипаж</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_isCrew_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Ограничение на управление техникой</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+		<Container name="Spectator">
+			<Key ID="STR_WOG_Spectator_Logic">
+				<Original>WOG Spectator</Original>
+				<English>WOG Spectator</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG Спектатор</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_Spectator_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Инициализация спектатора после смерти</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+		<Container name="ViewDistance">
+			<Key ID="STR_WOG_ViewDistance_Logic">
+				<Original>WOG ViewDistance</Original>
+				<English>WOG ViewDistance</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>WOG ViewDistance</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+			<Key ID="STR_WOG_ViewDistance_About">
+				<Original>XXXXXXX</Original>
+				<English>XXXXXXX</English>
+				<Czech>XXXXXXX</Czech>
+				<French>XXXXXXX</French>
+				<German>XXXXXXX</German>
+				<Italian>XXXXXXX</Italian>
+				<Polish>XXXXXXX</Polish>
+				<Portuguese>XXXXXXX</Portuguese>
+				<Russian>Настройка дальности видимости</Russian>
+				<Spanish>XXXXXXX</Spanish>
+			</Key>
+		</Container>
+	</Package>
+</Project>
